@@ -1,0 +1,24 @@
+{
+  "name": "expedia-hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://athulms1988@github.com/athulms1988/hackathon.git"
+  },
+  "author": "athul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athulms1988/hackathon/issues"
+  },
+  "homepage": "https://github.com/athulms1988/hackathon#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "aws-sdk": "^2.355.0",
+    "csv-parse": "^3.2.0"
+  }
+}
