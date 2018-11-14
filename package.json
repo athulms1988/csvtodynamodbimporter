@@ -19,6 +19,7 @@
   "dependencies": {
     "async": "^2.6.1",
     "aws-sdk": "^2.355.0",
-    "csv-parse": "^3.2.0"
+    "csv-parse": "^3.2.0",
+    "moment": "^2.22.2"
   }
 }

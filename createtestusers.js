@@ -18,7 +18,7 @@ var params = {
         last_login: '03/10/2017',
         mobile_no: '9496328220',
         no_of_bookings: 15,
-        is_actual_user: true
+        is_actual_user: 1
     }
 };
 documentClient.put(params, function(err, data) {

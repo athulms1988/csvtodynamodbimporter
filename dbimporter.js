@@ -26,7 +26,7 @@ parser = parse({
         item_data[0].distance = parseInt(item_data[0].distance);
         item_data[0].no_of_bookings = parseInt(item_data[0].no_of_bookings);
         item_data[0].is_campaigned = item_data[0].is_campaigned === "true" ? true : false
-        item_data[0].is_actual_user = false;
+        item_data[0].is_actual_user = 0;
         var params = {
             TableName: 'usertable',
             Item: item_data[0]
