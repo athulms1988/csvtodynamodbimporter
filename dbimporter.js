@@ -22,8 +22,11 @@ parser = parse({
     chunk_no = 1;
 
     async.each(split_arrays, function(item_data, callback) {
-        console.log(item_data);
         item_data[0].id = parseInt(item_data[0].id);
+        item_data[0].distance = parseInt(item_data[0].distance);
+        item_data[0].no_of_bookings = parseInt(item_data[0].no_of_bookings);
+        item_data[0].is_campaigned = item_data[0].is_campaigned === "true" ? true : false
+        item_data[0].is_actual_user = false;
         var params = {
             TableName: 'usertable',
             Item: item_data[0]
