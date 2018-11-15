@@ -6,18 +6,19 @@ var documentClient = new AWS.DynamoDB.DocumentClient({accessKeyId: accessKeyID, 
 var params = {
     TableName: 'usertable',
     Item: {
-        id: 1001,
+        id: 1003,
         country: 'India',
-        distance: 4345,
-        dob: '08/10/1988',
-        email: 'athul.salimkumar@ibsplc.com',
-        first_name: 'Athul',
-        last_name: 'MS',
+        distance: 3045,
+        dob: '20/09/1990',
+        email: 'jogijacob89@gmail.com',
+        first_name: 'Jogi',
+        last_name: 'Jacob',
         gender: 'Male',
         is_campaigned: false,
-        last_login: '03/10/2017',
-        mobile_no: '9496328220',
-        no_of_bookings: 15,
+        last_login: '03/10/2018',
+        mobile_no: '9809034879',
+        no_of_bookings: 10,
+        days_booked: 180,
         is_actual_user: 1
     }
 };
